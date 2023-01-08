@@ -10,5 +10,4 @@
 10 [快速記分板]: light_purple
 
 data merge storage minecraft:mk
-  install: 是否安裝
   displayName: 伺服器名稱
