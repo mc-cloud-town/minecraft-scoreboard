@@ -1,0 +1,17 @@
+{
+  "criteria": {
+    "config_check_sneak": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "flags": {
+            "is_sneaking": true
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "mk:config/sneak"
+  }
+}
