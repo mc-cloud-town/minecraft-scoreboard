@@ -1,0 +1,10 @@
+{
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "__comment_team.0": "若有使用 carpet bot 並需要使用此功能請安裝",
+    "__comment_team.1": "https://github.com/mc-cloud-town/scarpet/blob/master/survival/show_fake_player.sc",
+    "__comment_team.2": "將檔案下載後安裝置 world/scripts 資料夾內",
+    "team": "carpet_bot_team"
+  }
+}

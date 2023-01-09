@@ -1,0 +1,9 @@
+{
+  "condition": "minecraft:alternative",
+  "terms": [
+    {
+      "condition": "minecraft:reference",
+      "name": "mk.utils:is_fake_player"
+    }
+  ]
+}
