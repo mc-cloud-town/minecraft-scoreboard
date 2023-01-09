@@ -10,7 +10,11 @@
             "term": {
               "condition": "minecraft:entity_scores",
               "entity": "this",
-              "scores": { "mk.events.join": { "max": 0 } }
+              "scores": {
+                "mk.events.join": {
+                  "max": 0
+                }
+              }
             }
           }
         ]
