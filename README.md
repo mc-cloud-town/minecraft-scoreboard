@@ -4,3 +4,4 @@
 - [x] health
 - [ ] login
 - [ ] scoreboards
+- [ ] MCDR starsHelper support
