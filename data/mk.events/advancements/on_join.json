@@ -11,7 +11,7 @@
               "condition": "minecraft:entity_scores",
               "entity": "this",
               "scores": {
-                "mk.events.join": {
+                "mk.events.player.join": {
                   "max": 0
                 }
               }

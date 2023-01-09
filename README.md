@@ -1,7 +1,7 @@
 ## todo list
 
-- [x] config
 - [x] health
+- [ ] config
 - [ ] login
 - [ ] scoreboards
 - [ ] MCDR starsHelper support
