@@ -1,7 +1,10 @@
 # 安裝 事件
 
 ## for on_join event
-scoreboard objectives add mk.events.player.join minecraft.custom:leave_game
+scoreboard objectives add mk.event.join minecraft.custom:leave_game
 
 ## for on_fly event
-scoreboard objectives add mk.events.aviating_distance minecraft.custom:aviate_one_cm
+scoreboard objectives add mk.event.flyDist minecraft.custom:aviate_one_cm
+
+## for on_dead event
+scoreboard objectives add mk.event.dead deathCount

@@ -9,8 +9,8 @@
             "condition": "minecraft:entity_scores",
             "entity": "this",
             "scores": {
-              "mk.event.flyDist": {
-                "min": 200
+              "mk.event.dead": {
+                "min": 1
               }
             }
           }
@@ -19,6 +19,6 @@
     }
   },
   "rewards": {
-    "function": "mk.events:events/on_fly"
+    "function": "mk.events:events/on_dead"
   }
 }
