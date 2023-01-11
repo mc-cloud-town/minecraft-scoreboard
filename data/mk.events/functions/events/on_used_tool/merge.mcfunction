@@ -1,4 +1,4 @@
-# reset all player UT(used_tool)
+# merge all player UT(used_tool)
 
 ## 斧頭
 scoreboard players operation var.score mk.match.integer += @s mk.event.UT.WA
