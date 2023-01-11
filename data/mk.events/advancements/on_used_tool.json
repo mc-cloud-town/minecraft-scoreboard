@@ -1,0 +1,11 @@
+{
+  "parent": "mk.events:event",
+  "criteria": {
+    "on_used_tool": {
+      "trigger": "minecraft:tick"
+    }
+  },
+  "rewards": {
+    "function": "mk.events:events/on_used_tool"
+  }
+}
