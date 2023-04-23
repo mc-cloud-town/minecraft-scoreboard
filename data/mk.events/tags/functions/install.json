@@ -1,4 +1,0 @@
-{
-  "replace": false,
-  "values": ["#mk.events:install", "mk.events:events/on_used_tool/install"]
-}

@@ -42,3 +42,5 @@ scoreboard players operation var.score mk.match.integer += @s mk.event.UT.GS
 scoreboard players operation var.score mk.match.integer += @s mk.event.UT.IS
 scoreboard players operation var.score mk.match.integer += @s mk.event.UT.DS
 scoreboard players operation var.score mk.match.integer += @s mk.event.UT.NS
+
+# TODO add all

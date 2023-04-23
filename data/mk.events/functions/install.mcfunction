@@ -8,3 +8,5 @@ scoreboard objectives add mk.event.flyDist minecraft.custom:aviate_one_cm
 
 ## for on_dead event
 scoreboard objectives add mk.event.dead deathCount
+
+function mk.events:events/on_used_tool/install
