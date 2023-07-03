@@ -1,7 +1,7 @@
 {
   "parent": "mk.events:on_sneak",
   "criteria": {
-    "on_login": {
+    "on_unsneak": {
       "trigger": "minecraft:tick",
       "conditions": {
         "player": {
@@ -13,13 +13,13 @@
           "type_specific": {
             "type": "player",
             "advancements": {
-              "mk.events:on_sneak": false
+              "mk.events:on_sneak": true
             }
           },
           "__comment_player": "1.16 ~ 1.18",
           "player": {
             "advancements": {
-              "mk.events:on_sneak": false
+              "mk.events:on_sneak": true
             }
           }
         }

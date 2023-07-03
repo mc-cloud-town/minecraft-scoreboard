@@ -1,4 +1,4 @@
-say unsneak
+function #mk.events:events/unsneak
 
 ## 重設進度
-advancement revoke @s only mk.events:on_sneak
+advancement revoke @s from mk.events:on_sneak
