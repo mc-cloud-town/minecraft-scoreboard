@@ -1,8 +1,3 @@
-say 1
-
-scoreboard players enable @s mk.score.trigger
-advancement revoke @s only mk:scoreboard/on_click
-
 ## 關
 execute if score @s mk.score.trigger matches 1 run team leave @s
 
@@ -38,3 +33,7 @@ execute if score @s mk.score.trigger matches 11 run team join mk.tradingCount
 
 ## 放置
 execute if score @s mk.score.trigger matches 12 run team join mk.placedCount
+
+scoreboard players reset @s mk.score.trigger
+scoreboard players enable @s mk.score.trigger
+advancement revoke @s only mk:scoreboard/on_click
