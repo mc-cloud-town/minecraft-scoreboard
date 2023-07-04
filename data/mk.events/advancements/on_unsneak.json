@@ -15,19 +15,19 @@
             "predicate": {
               "flags": {
                 "is_sneaking": false
-              }
-            },
-            "//type_specific": "1.19+",
-            "type_specific": {
-              "type": "player",
-              "advancements": {
-                "mk.events:on_sneak": true
-              }
-            },
-            "//player": "1.16 ~ 1.18",
-            "player": {
-              "advancements": {
-                "mk.events:on_sneak": true
+              },
+              "//type_specific": "1.19+",
+              "type_specific": {
+                "type": "player",
+                "advancements": {
+                  "mk.events:on_sneak": true
+                }
+              },
+              "//player": "1.16 ~ 1.18",
+              "player": {
+                "advancements": {
+                  "mk.events:on_sneak": true
+                }
               }
             }
           }

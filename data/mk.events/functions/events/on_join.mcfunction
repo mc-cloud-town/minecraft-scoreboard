@@ -1,5 +1,5 @@
 # join event
-say join
+
 function #mk.events:events/on_join
 
 ## 重設 scoreboard 分數

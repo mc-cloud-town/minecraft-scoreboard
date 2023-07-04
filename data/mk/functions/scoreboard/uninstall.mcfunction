@@ -28,3 +28,6 @@ team remove mk.tradingCount
 
 ## 放置
 team remove mk.placedCount
+
+## trigger
+scoreboard objectives remove mk.score.trigger

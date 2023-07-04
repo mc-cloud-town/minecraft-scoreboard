@@ -11,9 +11,11 @@ scoreboard objectives add mk.match.integer dummy
 # 用於常量儲存(數字 10)
 #alias entity 1 00000000-0000-1111-0001-000000000000
 #alias entity 10 00000000-0000-1111-0010-000000000000
+#alias entity 200 00000000-0000-1111-0200-000000000000
 #alias entity 72000 00000000-0000-1117-2000-000000000000
 scoreboard players set 00000000-0000-1111-0001-000000000000 mk.match.integer 1
 scoreboard players set 00000000-0000-1111-0010-000000000000 mk.match.integer 10
+scoreboard players set 00000000-0000-1111-0200-000000000000 mk.match.integer 200
 scoreboard players set 00000000-0000-1117-2000-000000000000 mk.match.integer 72000
 
 ## on_activation -> 上線時間
