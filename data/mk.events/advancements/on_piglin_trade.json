@@ -1,0 +1,25 @@
+{
+  "parent": "mk.events:event",
+  "criteria": {
+    "on_piglin_trade": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:reference",
+            "name": "mk:is_real_player"
+          }
+        ],
+        "entity": {
+          "type": "minecraft:piglin",
+          "flags": {
+            "is_baby": false
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "mk.events:events/on_piglin_trade"
+  }
+}

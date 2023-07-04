@@ -1,8 +1,9 @@
 {
   "parent": "mk.events:event",
+  "//1": "由於玩家傷害實體包含在 minecraft.used 中，添加以下事件移除",
   "criteria": {
-    "config_check_sneak": {
-      "trigger": "minecraft:tick",
+    "on_hurt_from_tools": {
+      "trigger": "minecraft:player_hurt_entity",
       "conditions": {
         "player": [
           {
@@ -13,13 +14,18 @@
             "condition": "minecraft:entity_properties",
             "entity": "this",
             "predicate": {
-              "flags": {
-                "is_sneaking": true
+              "equipment": {
+                "mainhand": {
+                  "tag": "mk:tools"
+                }
               }
             }
           }
         ]
       }
     }
+  },
+  "rewards": {
+    "function": "mk.events:events/on_hurt_from_tools"
   }
 }

@@ -17,6 +17,7 @@
 ##   O  = shovel    鏟子
 ##   S  = sword     劍
 
+# TODO add to unisntall
 scoreboard objectives add mk.event.UT.ALL dummy
 
 ## 斧頭
@@ -44,7 +45,7 @@ scoreboard objectives add mk.event.UT.DP minecraft.used:diamond_pickaxe
 scoreboard objectives add mk.event.UT.NP minecraft.used:netherite_pickaxe
 
 ## 剪刀
-scoreboard objectives add mk.event.UT.SE minecraft.used:shears
+scoreboard objectives add mk.event.UT.E minecraft.used:shears
 
 ## 鏟子
 scoreboard objectives add mk.event.UT.WO minecraft.used:wooden_shovel

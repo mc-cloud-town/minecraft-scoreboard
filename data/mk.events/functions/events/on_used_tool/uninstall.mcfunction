@@ -25,7 +25,7 @@ scoreboard objectives remove mk.event.UT.DP
 scoreboard objectives remove mk.event.UT.NP
 
 ## 剪刀
-scoreboard objectives remove mk.event.UT.SE
+scoreboard objectives remove mk.event.UT.E
 
 ## 鏟子
 scoreboard objectives remove mk.event.UT.WO

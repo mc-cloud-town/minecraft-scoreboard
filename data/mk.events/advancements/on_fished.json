@@ -1,19 +1,22 @@
 {
   "parent": "mk.events:event",
   "criteria": {
-    "on_placed_block": {
-      "trigger": "minecraft:placed_block",
+    "on_fished": {
+      "trigger": "minecraft:fishing_rod_hooked",
       "conditions": {
         "player": [
           {
             "condition": "minecraft:reference",
             "name": "mk:is_real_player"
           }
-        ]
+        ],
+        "item": {
+          "tag": "minecraft:fishes"
+        }
       }
     }
   },
   "rewards": {
-    "function": "mk.events:events/on_placed_block"
+    "function": "mk.events:events/on_fished"
   }
 }

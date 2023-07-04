@@ -1,6 +1,6 @@
 ## todo list
 
-- [x] health
+- [ ] health
 - [ ] config
 - [ ] login
 - [ ] scoreboards

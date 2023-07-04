@@ -1,3 +1,7 @@
 {
-  "datapack.env.cmdVersion": "1.20"
+  "datapack.env.cmdVersion": "1.16",
+  "todo-tree.tree.showBadges": true,
+  "datapack.snippets": {
+    "event": "{\n  \"parent\": \"mk.events:event\",\n  \"criteria\": {},\n  \"rewards\": {}\n}"
+  }
 }

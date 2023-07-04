@@ -25,7 +25,7 @@ scoreboard players set @s mk.event.UT.DP 0
 scoreboard players set @s mk.event.UT.NP 0
 
 ## 剪刀
-scoreboard players set @s mk.event.UT.SE 0
+scoreboard players set @s mk.event.UT.E 0
 
 ## 鏟子
 scoreboard players set @s mk.event.UT.WO 0

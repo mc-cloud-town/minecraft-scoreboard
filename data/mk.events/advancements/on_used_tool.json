@@ -2,7 +2,19 @@
   "parent": "mk.events:event",
   "criteria": {
     "on_used_tool": {
-      "trigger": "minecraft:tick"
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:reference",
+            "name": "mk:is_real_player"
+          },
+          {
+            "condition": "minecraft:reference",
+            "name": "mk.events:used_tool"
+          }
+        ]
+      }
     }
   },
   "rewards": {

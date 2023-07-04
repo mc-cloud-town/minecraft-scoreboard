@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "#mk:tool/axes",
+    "#mk:tool/hoes",
+    "#mk:tool/pickaxes",
+    "#mk:tool/shears",
+    "#mk:tool/shovels",
+    "#mk:tool/swords"
+  ]
+}

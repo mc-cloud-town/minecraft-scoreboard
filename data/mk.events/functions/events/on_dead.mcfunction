@@ -1,6 +1,6 @@
 # dead event
-spawnpoint
 
+function #mk.events:events/on_dead
 
 scoreboard players set @s mk.event.dead 0
 

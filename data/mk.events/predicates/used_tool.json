@@ -1,0 +1,160 @@
+{
+  "condition": "minecraft:any_of",
+  "terms": [
+    {
+      "condition": "minecraft:entity_scores",
+      "entity": "this",
+      "scores": { "mk.event.UT.WA": { "min": 1 } }
+    },
+    {
+      "condition": "minecraft:entity_scores",
+      "entity": "this",
+      "scores": { "mk.event.UT.SA": { "min": 1 } }
+    },
+    {
+      "condition": "minecraft:entity_scores",
+      "entity": "this",
+      "scores": { "mk.event.UT.GA": { "min": 1 } }
+    },
+    {
+      "condition": "minecraft:entity_scores",
+      "entity": "this",
+      "scores": { "mk.event.UT.IA": { "min": 1 } }
+    },
+    {
+      "condition": "minecraft:entity_scores",
+      "entity": "this",
+      "scores": { "mk.event.UT.DA": { "min": 1 } }
+    },
+    {
+      "condition": "minecraft:entity_scores",
+      "entity": "this",
+      "scores": { "mk.event.UT.NA": { "min": 1 } }
+    },
+    {
+      "condition": "minecraft:entity_scores",
+      "entity": "this",
+      "scores": { "mk.event.UT.WH": { "min": 1 } }
+    },
+    {
+      "condition": "minecraft:entity_scores",
+      "entity": "this",
+      "scores": { "mk.event.UT.SH": { "min": 1 } }
+    },
+    {
+      "condition": "minecraft:entity_scores",
+      "entity": "this",
+      "scores": { "mk.event.UT.GH": { "min": 1 } }
+    },
+    {
+      "condition": "minecraft:entity_scores",
+      "entity": "this",
+      "scores": { "mk.event.UT.IH": { "min": 1 } }
+    },
+    {
+      "condition": "minecraft:entity_scores",
+      "entity": "this",
+      "scores": { "mk.event.UT.DH": { "min": 1 } }
+    },
+    {
+      "condition": "minecraft:entity_scores",
+      "entity": "this",
+      "scores": { "mk.event.UT.NH": { "min": 1 } }
+    },
+    {
+      "condition": "minecraft:entity_scores",
+      "entity": "this",
+      "scores": { "mk.event.UT.WP": { "min": 1 } }
+    },
+    {
+      "condition": "minecraft:entity_scores",
+      "entity": "this",
+      "scores": { "mk.event.UT.SP": { "min": 1 } }
+    },
+    {
+      "condition": "minecraft:entity_scores",
+      "entity": "this",
+      "scores": { "mk.event.UT.GP": { "min": 1 } }
+    },
+    {
+      "condition": "minecraft:entity_scores",
+      "entity": "this",
+      "scores": { "mk.event.UT.IP": { "min": 1 } }
+    },
+    {
+      "condition": "minecraft:entity_scores",
+      "entity": "this",
+      "scores": { "mk.event.UT.DP": { "min": 1 } }
+    },
+    {
+      "condition": "minecraft:entity_scores",
+      "entity": "this",
+      "scores": { "mk.event.UT.NP": { "min": 1 } }
+    },
+    {
+      "condition": "minecraft:entity_scores",
+      "entity": "this",
+      "scores": { "mk.event.UT.E": { "min": 1 } }
+    },
+    {
+      "condition": "minecraft:entity_scores",
+      "entity": "this",
+      "scores": { "mk.event.UT.WO": { "min": 1 } }
+    },
+    {
+      "condition": "minecraft:entity_scores",
+      "entity": "this",
+      "scores": { "mk.event.UT.SO": { "min": 1 } }
+    },
+    {
+      "condition": "minecraft:entity_scores",
+      "entity": "this",
+      "scores": { "mk.event.UT.GO": { "min": 1 } }
+    },
+    {
+      "condition": "minecraft:entity_scores",
+      "entity": "this",
+      "scores": { "mk.event.UT.IO": { "min": 1 } }
+    },
+    {
+      "condition": "minecraft:entity_scores",
+      "entity": "this",
+      "scores": { "mk.event.UT.DO": { "min": 1 } }
+    },
+    {
+      "condition": "minecraft:entity_scores",
+      "entity": "this",
+      "scores": { "mk.event.UT.NO": { "min": 1 } }
+    },
+    {
+      "condition": "minecraft:entity_scores",
+      "entity": "this",
+      "scores": { "mk.event.UT.WS": { "min": 1 } }
+    },
+    {
+      "condition": "minecraft:entity_scores",
+      "entity": "this",
+      "scores": { "mk.event.UT.SS": { "min": 1 } }
+    },
+    {
+      "condition": "minecraft:entity_scores",
+      "entity": "this",
+      "scores": { "mk.event.UT.GS": { "min": 1 } }
+    },
+    {
+      "condition": "minecraft:entity_scores",
+      "entity": "this",
+      "scores": { "mk.event.UT.IS": { "min": 1 } }
+    },
+    {
+      "condition": "minecraft:entity_scores",
+      "entity": "this",
+      "scores": { "mk.event.UT.DS": { "min": 1 } }
+    },
+    {
+      "condition": "minecraft:entity_scores",
+      "entity": "this",
+      "scores": { "mk.event.UT.NS": { "min": 1 } }
+    }
+  ]
+}
