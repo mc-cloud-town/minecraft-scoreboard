@@ -1,30 +1,30 @@
 
 ## 總
-scoreboard objectives add mk.total dummy
+scoreboard objectives remove mk.total
 
 ## 活躍度
-scoreboard objectives add mk.activation dummy
+scoreboard objectives remove mk.activation
 
 ## 飛行距離
-scoreboard objectives add mk.flyDist dummy
+scoreboard objectives remove mk.flyDist
 
 ## 抖M
-scoreboard objectives add mk.damageTaken dummy
+scoreboard objectives remove mk.damageTaken
 
 ## 死亡
-scoreboard objectives add mk.deathCounter dummy
+scoreboard objectives remove mk.deathCounter
 
 ## 挖掘
-scoreboard objectives add mk.digCount dummy
+scoreboard objectives remove mk.digCount
 
 ## 釣魚
-scoreboard objectives add mk.fishCount dummy
+scoreboard objectives remove mk.fishCount
 
 ## 擊殺
-scoreboard objectives add mk.killCount dummy
+scoreboard objectives remove mk.killCount
 
 ## 交易
-scoreboard objectives add mk.tradingCount dummy
+scoreboard objectives remove mk.tradingCount
 
 ## 放置
-scoreboard objectives add mk.placedCount dummy
+scoreboard objectives remove mk.placedCount

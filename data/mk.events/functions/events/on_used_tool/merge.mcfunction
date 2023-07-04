@@ -42,3 +42,6 @@ scoreboard players operation 00000000-0000-1100-0000-000000000000 mk.match.integ
 scoreboard players operation 00000000-0000-1100-0000-000000000000 mk.match.integer += @s mk.event.UT.IS
 scoreboard players operation 00000000-0000-1100-0000-000000000000 mk.match.integer += @s mk.event.UT.DS
 scoreboard players operation 00000000-0000-1100-0000-000000000000 mk.match.integer += @s mk.event.UT.NS
+
+## 偏移
+scoreboard players operation 00000000-0000-1100-0000-000000000000 mk.match.integer += @s mk.event.UT.OFFS

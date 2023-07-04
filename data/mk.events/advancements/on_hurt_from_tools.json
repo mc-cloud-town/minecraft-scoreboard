@@ -26,6 +26,6 @@
     }
   },
   "rewards": {
-    "function": "mk.events:events/on_hurt_from_tools"
+    "function": "mk.events:events/on_used_tool/on_hurt_from_tools"
   }
 }

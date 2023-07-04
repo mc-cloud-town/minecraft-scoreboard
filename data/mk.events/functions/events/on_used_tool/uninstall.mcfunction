@@ -1,5 +1,7 @@
 # remove all scoreboard
 
+scoreboard objectives remove mk.event.UT.ALL
+
 ## 斧頭
 scoreboard objectives remove mk.event.UT.WA
 scoreboard objectives remove mk.event.UT.SA

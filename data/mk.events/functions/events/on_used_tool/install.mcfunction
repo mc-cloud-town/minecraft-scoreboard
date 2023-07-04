@@ -17,8 +17,9 @@
 ##   O  = shovel    鏟子
 ##   S  = sword     劍
 
-# TODO add to unisntall
 scoreboard objectives add mk.event.UT.ALL dummy
+# offset -> OFFS
+scoreboard objectives add mk.event.UT.OFFS dummy
 
 ## 斧頭
 scoreboard objectives add mk.event.UT.WA minecraft.used:wooden_axe

@@ -1,15 +1,20 @@
 # 安裝 事件
-
-## tmp data
-# 用於常量儲存(數字 10)
-#alias entity 10 00000000-0000-1111-0010-000000000000
-# 用於變量儲存
-#alias entity var.score 00000000-0000-1100-0000-000000000000
-# carpet bot supper
+## carpet bot supper
 #declare team carpet_bot_team carpet bot supper
 
+## tmp data
+# 用於變量儲存
+#alias entity var.score 00000000-0000-1100-0000-000000000000
 scoreboard objectives add mk.match.integer dummy
+
+## const data
+# 用於常量儲存(數字 10)
+#alias entity 1 00000000-0000-1111-0001-000000000000
+#alias entity 10 00000000-0000-1111-0010-000000000000
+#alias entity 72000 00000000-0000-1117-2000-000000000000
+scoreboard players set 00000000-0000-1111-0001-000000000000 mk.match.integer 1
 scoreboard players set 00000000-0000-1111-0010-000000000000 mk.match.integer 10
+scoreboard players set 00000000-0000-1117-2000-000000000000 mk.match.integer 72000
 
 ## on_activation -> 上線時間
 scoreboard objectives add mk.event.active dummy

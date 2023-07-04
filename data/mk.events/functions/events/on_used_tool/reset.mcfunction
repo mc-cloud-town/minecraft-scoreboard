@@ -42,3 +42,6 @@ scoreboard players set @s mk.event.UT.GS 0
 scoreboard players set @s mk.event.UT.IS 0
 scoreboard players set @s mk.event.UT.DS 0
 scoreboard players set @s mk.event.UT.NS 0
+
+## 偏移
+scoreboard players set @s mk.event.UT.OFFS 0

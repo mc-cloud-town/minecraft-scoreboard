@@ -9,7 +9,7 @@
             "condition": "minecraft:entity_scores",
             "entity": "this",
             "scores": {
-              "mk.event.play_ticks": {
+              "mk.event.active": {
                 "//": "72000 = 60(s) * 60(m) * 20(tick)",
                 "min": 72000
               }
