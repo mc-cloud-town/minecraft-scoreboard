@@ -1,3 +1,4 @@
+data modify storage mk.plugins scoreboard set value 0b
 
 ## 總
 team remove mk.total

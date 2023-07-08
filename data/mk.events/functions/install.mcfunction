@@ -4,19 +4,14 @@
 
 ## tmp data
 # 用於變量儲存
-#alias entity var.score 00000000-0000-1100-0000-000000000000
+#declare entity var.score
 scoreboard objectives add mk.match.integer dummy
 
-## const data
-# 用於常量儲存(數字 10)
-#alias entity 1 00000000-0000-1111-0001-000000000000
-#alias entity 10 00000000-0000-1111-0010-000000000000
-#alias entity 200 00000000-0000-1111-0200-000000000000
-#alias entity 72000 00000000-0000-1117-2000-000000000000
-scoreboard players set 00000000-0000-1111-0001-000000000000 mk.match.integer 1
-scoreboard players set 00000000-0000-1111-0010-000000000000 mk.match.integer 10
-scoreboard players set 00000000-0000-1111-0200-000000000000 mk.match.integer 200
-scoreboard players set 00000000-0000-1117-2000-000000000000 mk.match.integer 72000
+## const data - 常量儲存
+scoreboard players set 1 mk.match.integer 1
+scoreboard players set 10 mk.match.integer 10
+scoreboard players set 200 mk.match.integer 200
+scoreboard players set 72000 mk.match.integer 72000
 
 ## on_activation -> 上線時間
 scoreboard objectives add mk.event.active dummy

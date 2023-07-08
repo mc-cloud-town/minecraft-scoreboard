@@ -21,14 +21,14 @@
       "color": "dark_gray",
       "hoverEvent": {
         "action": "show_text",
-        "contents": { "text": "幻燈片", "color": "gold" }
+        "contents": { "text": "輪播", "color": "gold" }
       },
       "clickEvent": {
         "action": "run_command",
         "value": "/trigger mk.score.trigger set 2"
       }
     },
-    { "text": "幻燈片", "color": "gold" },
+    { "text": "輪播", "color": "gold" },
     { "text": "]", "color": "dark_gray" }
   ],
   [

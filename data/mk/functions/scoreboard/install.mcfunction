@@ -1,6 +1,11 @@
 scoreboard objectives add mk.score.trigger trigger
 
-execute if data storage mk.plugins {scoreboard:1b} run function mk:scoreboard/install
+#declare entity max
+#declare entity current
+scoreboard objectives add mk.score.tmp dummy
+scoreboard players set max mk.score.tmp 10
+
+data modify storage mk.plugins scoreboard set value 1b
 
 ## 總
 team add mk.total
@@ -72,7 +77,7 @@ scoreboard objectives add mk.placedCount dummy
 scoreboard objectives modify mk.placedCount displayname {"text": "放置榜", "bold": true, "color": "dark_green"}
 scoreboard objectives setdisplay sidebar.team.dark_green mk.placedCount
 
-## 輪
+## 輪播
 team add mk.all
 team modify mk.all color gold
 
