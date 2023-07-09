@@ -9,7 +9,17 @@
             "condition": "minecraft:entity_properties",
             "entity": "this",
             "predicate": {
-              "nbt": "{RootVehicle:{Entity:{id:\"minecraft:armor_stand\",Tags:[\"mk.siting\"]}}}"
+              "nbt": "{Tags:[\"mk.siting\"]}"
+            }
+          },
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "nbt": "{RootVehicle:{}}"
+              }
             }
           }
         ]
