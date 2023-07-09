@@ -1,0 +1,22 @@
+{
+  "parent": "mk:root",
+  "criteria": {
+    "unsit": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "nbt": "{RootVehicle:{Entity:{id:\"minecraft:armor_stand\",Tags:[\"mk.siting\"]}}}"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "mk:sit/unsit"
+  }
+}
