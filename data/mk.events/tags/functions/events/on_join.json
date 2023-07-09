@@ -1,4 +1,4 @@
 {
   "replace": false,
-  "values": ["mk:scoreboard/on_config", "mk:setup_user"]
+  "values": ["#mk:sneak_config", "mk:setup_user"]
 }
