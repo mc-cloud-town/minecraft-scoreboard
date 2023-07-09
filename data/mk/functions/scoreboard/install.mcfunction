@@ -1,11 +1,11 @@
+data modify storage mk.plugins scoreboard set value 1b
+
 scoreboard objectives add mk.score.trigger trigger
 
 #declare entity max
 #declare entity current
 scoreboard objectives add mk.score.tmp dummy
 scoreboard players set max mk.score.tmp 10
-
-data modify storage mk.plugins scoreboard set value 1b
 
 ## 總
 team add mk.total

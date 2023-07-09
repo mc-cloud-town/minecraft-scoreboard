@@ -1,15 +1,6 @@
 # hurt from tools event
 
 # 減 1 以消除攻擊時的計數
-scoreboard players operation @s mk.event.UT.OFFS -= 1 mk.match.integer
-
-# marge datas
-function mk.events:events/on_used_tool/merge
-
-# call else event
-function #mk.events:events/on_used_tool
-
-# reset data
-function mk.events:events/on_used_tool/reset
+scoreboard players remove @s mk.event.UT.OFFS 1
 
 advancement revoke @s only mk.events:on_hurt_from_tools
