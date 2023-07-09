@@ -1,6 +1,6 @@
 {
   "pack": {
-    "description": "1.16-1.20+",
-    "pack_format": 6
+    "pack_format": 6,
+    "description": "MK Survival packages 1.16.2~1.20+ | Author: monkey-cat(a3510377)"
   }
 }

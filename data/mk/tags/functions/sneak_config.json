@@ -1,0 +1,4 @@
+{
+  "replace": false,
+  "values": ["mk:scoreboard/on_config", "mk:sit/on_config"]
+}
