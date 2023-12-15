@@ -6,6 +6,10 @@
       "conditions": {
         "player": [
           {
+            "condition": "minecraft:reference",
+            "name": "mk:is_real_player"
+          },
+          {
             "condition": "minecraft:entity_scores",
             "entity": "this",
             "scores": {

@@ -1,7 +1,7 @@
 {
   "parent": "mk.events:event",
   "criteria": {
-    "on_aviate_one_meter": {
+    "on_dead": {
       "trigger": "minecraft:tick",
       "conditions": {
         "player": [
