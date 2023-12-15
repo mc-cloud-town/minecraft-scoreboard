@@ -4,7 +4,7 @@
     "on_placed_block": {
       "trigger": "minecraft:placed_block",
       "conditions": {
-        "location": [
+        "player": [
           {
             "condition": "minecraft:reference",
             "name": "mk:is_real_player"
