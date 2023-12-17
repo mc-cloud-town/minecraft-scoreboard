@@ -10,7 +10,7 @@
             "entity": "this",
             "scores": {
               "mk.event.flyDist": {
-                "min": 200
+                "min": 200000
               }
             }
           }
@@ -19,6 +19,6 @@
     }
   },
   "rewards": {
-    "function": "mk.events:events/on_fly_one_meter"
+    "function": "mk.events:events/on_fly_1k_meter"
   }
 }

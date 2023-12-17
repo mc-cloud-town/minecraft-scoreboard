@@ -11,6 +11,7 @@ scoreboard objectives add mk.match.integer dummy
 scoreboard players set 1 mk.match.integer 1
 scoreboard players set 10 mk.match.integer 10
 scoreboard players set 200 mk.match.integer 200
+scoreboard players set 1000 mk.match.integer 1000
 scoreboard players set 72000 mk.match.integer 72000
 
 ## on_activation -> 上線時間
