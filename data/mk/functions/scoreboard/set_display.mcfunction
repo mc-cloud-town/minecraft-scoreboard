@@ -1,8 +1,8 @@
 ## 關
 execute if score @s mk.score.trigger matches 1 run team leave @s
 
-## 輪
-execute if score @s mk.score.trigger matches 2 run team join mk.all
+# ## 輪
+# execute if score @s mk.score.trigger matches 2 run team join mk.all
 
 ## 總
 execute if score @s mk.score.trigger matches 3 run team join mk.total
@@ -33,6 +33,9 @@ execute if score @s mk.score.trigger matches 11 run team join mk.tradingCount
 
 ## 放置
 execute if score @s mk.score.trigger matches 12 run team join mk.placedCount
+
+## MCDR !!stats
+execute if score @s mk.score.trigger matches 13 run team join light_purple
 
 scoreboard players reset @s mk.score.trigger
 scoreboard players enable @s mk.score.trigger
