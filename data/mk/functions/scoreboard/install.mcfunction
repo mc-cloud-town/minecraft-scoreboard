@@ -16,10 +16,10 @@ scoreboard objectives setdisplay sidebar.team.dark_aqua mk.total
 
 ## 活躍度
 team add mk.activation
-team modify mk.activation color aqua
+team modify mk.activation color yellow
 scoreboard objectives add mk.activation dummy
-scoreboard objectives modify mk.activation displayname {"text":"活躍 - Online","bold":true,"color":"aqua"}
-scoreboard objectives setdisplay sidebar.team.aqua mk.activation
+scoreboard objectives modify mk.activation displayname {"text":"活躍 - Online","bold":true,"color":"yellow"}
+scoreboard objectives setdisplay sidebar.team.yellow mk.activation
 
 ## 飛行距離
 team add mk.flyDist
@@ -30,10 +30,9 @@ scoreboard objectives setdisplay sidebar.team.gold mk.flyDist
 
 ## 抖M
 team add mk.damageTaken
-team modify mk.damageTaken color yellow
+team modify mk.damageTaken color reset
 scoreboard objectives add mk.damageTaken dummy
 scoreboard objectives modify mk.damageTaken displayname {"text":"MM榜","bold":true,"color":"yellow"}
-scoreboard objectives setdisplay sidebar.team.yellow mk.damageTaken
 
 ## 死亡
 team add mk.deathCounter
@@ -44,17 +43,17 @@ scoreboard objectives setdisplay sidebar.team.dark_red mk.deathCounter
 
 ## 挖掘
 team add mk.digCount
-team modify mk.digCount color gray
+team modify mk.digCount color dark_purple
 scoreboard objectives add mk.digCount dummy
-scoreboard objectives modify mk.digCount displayname {"text":"挖掘 - Dig","bold":true,"color":"gray"}
-scoreboard objectives setdisplay sidebar.team.gray mk.digCount
+scoreboard objectives modify mk.digCount displayname {"text":"挖掘 - Dig","bold":true,"color":"dark_purple"}
+scoreboard objectives setdisplay sidebar.team.dark_purple mk.digCount
 
 ## 釣魚
 team add mk.fishCount
-team modify mk.fishCount color blue
+team modify mk.fishCount color aqua
 scoreboard objectives add mk.fishCount dummy
-scoreboard objectives modify mk.fishCount displayname {"text":"釣魚 - Fish","bold":true,"color":"blue"}
-scoreboard objectives setdisplay sidebar.team.blue mk.fishCount
+scoreboard objectives modify mk.fishCount displayname {"text":"釣魚 - Fish","bold":true,"color":"aqua"}
+scoreboard objectives setdisplay sidebar.team.aqua mk.fishCount
 
 ## 擊殺
 team add mk.killCount
