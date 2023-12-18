@@ -96,3 +96,4 @@ function mk:scoreboard/load
 ## !!stats
 team add light_purple
 team modify light_purple color light_purple
+scoreboard objectives setdisplay sidebar.team.light_purple StatsHelper
