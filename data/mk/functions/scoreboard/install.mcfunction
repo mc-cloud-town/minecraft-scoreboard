@@ -76,6 +76,13 @@ scoreboard objectives add mk.placedCount dummy
 scoreboard objectives modify mk.placedCount displayname {"text":"放置 - Place","bold":true,"color":"dark_green"}
 scoreboard objectives setdisplay sidebar.team.dark_green mk.placedCount
 
+## 雲妹 dig_peri
+team add mk.digPeri
+team modify mk.digPeri color dark_blue
+scoreboard objectives add mk.digPeri dummy
+scoreboard objectives modify mk.digPeri displayname {"text":"雲妹 - DigPer","bold":true,"color":"dark_blue"}
+scoreboard objectives setdisplay sidebar.team.dark_blue mk.digPeri
+
 ## 輪播
 # team add mk.all
 # team modify mk.all color gold

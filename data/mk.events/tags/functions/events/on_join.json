@@ -2,7 +2,6 @@
   "replace": false,
   "values": [
     "mk:others/join_message_0",
-    "#mk:sneak_config",
     "mk:setup_user",
     "mk:others/join_message_1"
   ]

@@ -37,6 +37,9 @@ execute if score @s mk.score.trigger matches 12 run team join mk.placedCount
 ## MCDR !!stats
 execute if score @s mk.score.trigger matches 13 run team join light_purple
 
+## 雲妹 - DigPer
+execute if score @s mk.score.trigger matches 14 run team join mk.digPeri
+
 scoreboard players reset @s mk.score.trigger
 scoreboard players enable @s mk.score.trigger
 advancement revoke @s only mk:scoreboard/on_click
