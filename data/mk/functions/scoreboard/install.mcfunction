@@ -80,7 +80,7 @@ scoreboard objectives setdisplay sidebar.team.dark_green mk.placedCount
 team add mk.digPeri
 team modify mk.digPeri color blue
 scoreboard objectives add mk.digPeri dummy
-scoreboard objectives modify mk.digPeri displayname {"text":"雲妹 - DigPer","bold":true,"color":"blue"}
+scoreboard objectives modify mk.digPeri displayname {"text":"雲妹 - DigPeri","bold":true,"color":"blue"}
 scoreboard objectives setdisplay sidebar.team.blue mk.digPeri
 
 ## 輪播
