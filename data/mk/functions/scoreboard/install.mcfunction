@@ -78,10 +78,10 @@ scoreboard objectives setdisplay sidebar.team.dark_green mk.placedCount
 
 ## 雲妹 dig_peri
 team add mk.digPeri
-team modify mk.digPeri color dark_blue
+team modify mk.digPeri color blue
 scoreboard objectives add mk.digPeri dummy
-scoreboard objectives modify mk.digPeri displayname {"text":"雲妹 - DigPer","bold":true,"color":"dark_blue"}
-scoreboard objectives setdisplay sidebar.team.dark_blue mk.digPeri
+scoreboard objectives modify mk.digPeri displayname {"text":"雲妹 - DigPer","bold":true,"color":"blue"}
+scoreboard objectives setdisplay sidebar.team.blue mk.digPeri
 
 ## 輪播
 # team add mk.all
@@ -96,6 +96,7 @@ team join mk.fishCount 總釣魚數
 team join mk.killCount 總擊殺數
 team join mk.tradingCount 總交易數
 team join mk.placedCount 總放置量
+team join mk.digPeri 雲妹挖掘量
 
 function mk:scoreboard/load
 
