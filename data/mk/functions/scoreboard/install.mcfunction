@@ -76,12 +76,12 @@ scoreboard objectives add mk.placedCount dummy
 scoreboard objectives modify mk.placedCount displayname {"text":"放置 - Place","bold":true,"color":"dark_green"}
 scoreboard objectives setdisplay sidebar.team.dark_green mk.placedCount
 
-## 雲妹 dig_peri
-team add mk.digPeri
-team modify mk.digPeri color blue
-scoreboard objectives add mk.digPeri dummy
-scoreboard objectives modify mk.digPeri displayname {"text":"雲妹 - DigPeri","bold":true,"color":"blue"}
-scoreboard objectives setdisplay sidebar.team.blue mk.digPeri
+## 手挖 hand_peri
+team add mk.handDig
+team modify mk.handDig color blue
+scoreboard objectives add mk.handDig dummy
+scoreboard objectives modify mk.handDig displayname {"text":"手挖 - HandPeri","bold":true,"color":"blue"}
+scoreboard objectives setdisplay sidebar.team.blue mk.handDig
 
 ## 輪播
 # team add mk.all
@@ -96,7 +96,7 @@ team join mk.fishCount 總釣魚數
 team join mk.killCount 總擊殺數
 team join mk.tradingCount 總交易數
 team join mk.placedCount 總放置量
-team join mk.digPeri 雲妹挖掘量
+team join mk.handDig 手挖挖掘量
 
 function mk:scoreboard/load
 
