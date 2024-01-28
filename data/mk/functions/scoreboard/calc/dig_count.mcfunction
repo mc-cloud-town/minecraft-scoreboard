@@ -6,6 +6,6 @@ scoreboard players operation 總挖掘量 mk.digCount = 總挖掘量 mk.total
 # x=1084~684
 # z=-60~337
 
-# x=3970~4320
-# z=3572~4080
-execute as @s[x=3970,z=3572,dx=350,dz=508] run function mk:scoreboard/calc/hand_dig
+# x=3971~4288
+# z=3573~4078
+execute as @s[x=3971,z=3573,dx=317,dz=505] run function mk:scoreboard/calc/hand_dig
