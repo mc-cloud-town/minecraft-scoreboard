@@ -1,3 +1,3 @@
 {
-  "values": ["mk:load"]
+  "values": ["mk:load", "mk.admin:start_fakeplayer"]
 }
