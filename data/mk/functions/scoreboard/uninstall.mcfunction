@@ -30,5 +30,8 @@ team remove mk.tradingCount
 ## 放置
 team remove mk.placedCount
 
+## 死亡隱藏 - DeathHides
+team remove mk.deathHides
+
 ## trigger
 scoreboard objectives remove mk.score.trigger

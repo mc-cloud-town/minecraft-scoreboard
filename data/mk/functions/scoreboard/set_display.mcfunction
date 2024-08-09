@@ -40,6 +40,9 @@ execute if score @s mk.score.trigger matches 13 run team join light_purple
 ## 手挖 - HandDig
 execute if score @s mk.score.trigger matches 14 run team join mk.handDig
 
+## 死亡隱藏 - DeathHides
+execute if score @s mk.score.trigger matches 15 run team join mk.deathHides
+
 scoreboard players reset @s mk.score.trigger
 scoreboard players enable @s mk.score.trigger
 advancement revoke @s only mk:scoreboard/on_click

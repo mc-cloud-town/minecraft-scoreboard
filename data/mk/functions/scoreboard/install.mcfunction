@@ -83,6 +83,11 @@ scoreboard objectives add mk.handDig dummy
 scoreboard objectives modify mk.handDig displayname {"text":"手挖 - HandPeri","bold":true,"color":"blue"}
 scoreboard objectives setdisplay sidebar.team.blue mk.handDig
 
+## 死亡隱藏 - DeathHides
+team add mk.deathHides
+team modify mk.deathHides color dark_gray
+team modify mk.deathHides deathMessageVisibility never
+
 ## 輪播
 # team add mk.all
 # team modify mk.all color gold
