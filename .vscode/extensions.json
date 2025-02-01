@@ -1,6 +1,6 @@
 {
   "recommendations": [
-    "spgoding.datapack-language-server",
-    "arcensoth.language-mcfunction"
+    "minecraftcommands.syntax-mcfunction",
+    "spgoding.datapack-language-server"
   ]
 }
