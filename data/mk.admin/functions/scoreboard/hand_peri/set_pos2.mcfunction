@@ -4,7 +4,7 @@ execute store result score z.2 mk.handDig.conf run data get entity @s Pos[2] 1
 
 function mk.admin:scoreboard/hand_peri/calc_pos_range
 
-tellraw @s [{"text":"Pos2 已設定為 "},{"text":"[","color":"green"},{"score":{"name":"x.2","objective":"mk.handDig.conf"},"color":"green"},{"text":", ","color":"green"},{"score":{"name":"y.2","objective":"mk.handDig.conf"},"color":"green"},{"text":", ","color":"green"},{"text":", ","color":"green"},{"score":{"name":"z.2","objective":"mk.handDig.conf"},"color":"green"},{"text":"]","color":"green"}]
+tellraw @s [{"text":"Pos2 已設定為 "},{"text":"[","color":"green"},{"score":{"name":"x.2","objective":"mk.handDig.conf"},"color":"green"},{"text":", ","color":"green"},{"score":{"name":"y.2","objective":"mk.handDig.conf"},"color":"green"},{"text":", ","color":"green"},{"score":{"name":"z.2","objective":"mk.handDig.conf"},"color":"green"},{"text":"]","color":"green"}]
 
 # 手挖空置域-01-爆了 | Dig-Peri-01-Explode
 # -6085 96 -9
