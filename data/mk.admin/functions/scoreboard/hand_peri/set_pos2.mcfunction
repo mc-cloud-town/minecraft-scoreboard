@@ -6,6 +6,7 @@ function mk:utils/get_dimension_from_player
 execute store result score dimension.2 mk.handDig.conf run data get storage mk.utils var.dimension.id
 
 function mk.admin:scoreboard/hand_peri/calc_pos_range
+function mk.admin:scoreboard/hand_peri/set_check
 
 tellraw @s [{"text":"Pos2 已設定為 "},{"text":"[","color":"green"},{"score":{"name":"x.2","objective":"mk.handDig.conf"},"color":"green"},{"text":", ","color":"green"},{"score":{"name":"y.2","objective":"mk.handDig.conf"},"color":"green"},{"text":", ","color":"green"},{"score":{"name":"z.2","objective":"mk.handDig.conf"},"color":"green"},{"text":"]","color":"green"}]
 
