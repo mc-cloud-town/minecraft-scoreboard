@@ -2,6 +2,9 @@ execute store result score x.2 mk.handDig.conf run data get entity @s Pos[0] 1
 execute store result score y.2 mk.handDig.conf run data get entity @s Pos[1] 1
 execute store result score z.2 mk.handDig.conf run data get entity @s Pos[2] 1
 
+function mk:utils/get_dimension_from_player
+execute store result score dimension.2 mk.handDig.conf run data get storage mk.utils var.dimension.id
+
 function mk.admin:scoreboard/hand_peri/calc_pos_range
 
 tellraw @s [{"text":"Pos2 已設定為 "},{"text":"[","color":"green"},{"score":{"name":"x.2","objective":"mk.handDig.conf"},"color":"green"},{"text":", ","color":"green"},{"score":{"name":"y.2","objective":"mk.handDig.conf"},"color":"green"},{"text":", ","color":"green"},{"score":{"name":"z.2","objective":"mk.handDig.conf"},"color":"green"},{"text":"]","color":"green"}]
