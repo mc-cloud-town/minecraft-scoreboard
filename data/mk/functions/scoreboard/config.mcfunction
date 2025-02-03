@@ -1,6 +1,7 @@
 scoreboard players set @s mk.score.trigger 0
 scoreboard players enable @s mk.score.trigger
 
+scoreboard players add @s mk.admin.perm 0
 execute unless score @s mk.admin.perm matches 0 run scoreboard players enable @s mk.admin.trigger
 execute unless score @s mk.admin.perm matches 0 run tellraw @s [{"text": "開啟管理面板: ","color":"yellow", "bold": true},{"text": "[開啟]","color": "green","clickEvent": {"action": "run_command","value": "/trigger mk.admin.trigger set 1"},"hoverEvent": {"action": "show_text","contents": {"text": "點擊開啟設定頁面"}}}]
 
