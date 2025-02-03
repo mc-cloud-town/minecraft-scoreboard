@@ -1,3 +1,3 @@
 function mk:scoreboard/install
 
-function mk.admin:setting
+function mk.admin:display_setting

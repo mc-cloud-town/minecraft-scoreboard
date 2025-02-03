@@ -1,4 +1,8 @@
 {
   "replace": false,
-  "values": ["mk.events:uninstall", "mk:scoreboard/uninstall"]
+  "values": [
+    "mk.events:uninstall",
+    "mk:scoreboard/uninstall",
+    "mk.admin:uninstall"
+  ]
 }
