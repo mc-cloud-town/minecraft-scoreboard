@@ -11,5 +11,5 @@ execute if score #pass mk.match.integer matches 2 run tellraw @s [{"text":"[提�
 execute if score #pass mk.match.integer matches 3 run tellraw @a [{"text":"[提醒]","color":"gold"},{"text":" 由於刷冰機啟動中請不要使用更新抑制器以免損壞","bold":true,"color":"red"}]
 execute if score #pass mk.match.integer matches 4 run tellraw @s [{"text":"[提醒]","color":"gold"},{"text":" 由於全物品啟動中請不要使用更新抑制器以免損壞","bold":true,"color":"red"}]
 
-execute if score #pass mk.match.integer matches 0.. run function mk:others/calc_warn
+# execute if score #pass mk.match.integer matches 0.. run function mk:others/calc_warn
 execute if score #pass mk.match.integer matches 0.. run scoreboard players add #pass_count mk.match.integer 1
