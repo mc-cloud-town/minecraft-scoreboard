@@ -8,5 +8,5 @@ function mk:others/calc_warn
 
 title @s reset
 title @s times 20 100 20
-execute if score #old_pass mk.match.integer matches 0.. run title @s subtitle {"text": "請注意看一下文字欄","color":"red"}
-execute if score #old_pass mk.match.integer matches 0.. run title @s title {"text": ""}
+execute unless score #old_pass mk.match.integer matches 0 run title @s subtitle {"text": "請注意看一下文字欄","color":"red"}
+execute unless score #old_pass mk.match.integer matches 0 run title @s title {"text": ""}
