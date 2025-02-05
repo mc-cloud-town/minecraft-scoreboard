@@ -8,5 +8,5 @@ execute in minecraft:overworld if block 2103 65 -212 minecraft:redstone_lamp[lit
 execute if score #pass mk.match.integer > #old_pass mk.match.integer run function mk:others/send_warn
 
 scoreboard players operation #pass mk.match.integer = #old_pass mk.match.integer
-execute if score #pass mk.match.integer matches 0.. run function mk:others/calc_warn
+# execute if score #pass mk.match.integer matches 0.. run function mk:others/calc_warn
 execute if score #pass mk.match.integer matches 0.. run scoreboard players add #old_pass mk.match.integer 1
