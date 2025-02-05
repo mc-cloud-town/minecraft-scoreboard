@@ -8,6 +8,8 @@ execute unless data storage mk.plugins {install: 1b} run function mk:install
 
 execute as @a run function mk:setup_user
 
+execute unless entity @a[name=monkey_Reachrs] run function mk:others/start_fakeplayer
+
 # load plugins
 
 ## scoreboard
