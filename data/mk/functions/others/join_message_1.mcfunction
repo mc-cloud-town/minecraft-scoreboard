@@ -5,6 +5,7 @@ tellraw @s [{"text":"輸入 ","color":"yellow"},{"text":"/c","color":"dark_green
 scoreboard players set #pass mk.match.integer 0
 
 execute if block 216 57 1396 minecraft:redstone_lamp[lit=true] run scoreboard players set #pass mk.match.integer 1
+execute if block 217 57 1396 minecraft:redstone_lamp[lit=true] run scoreboard players set #pass mk.match.integer 1
 execute if entity @a[name="bot_ice"] run scoreboard players set #pass mk.match.integer 2
 execute if entity @s[name="bot_ice"] run scoreboard players set #pass mk.match.integer 3
 
