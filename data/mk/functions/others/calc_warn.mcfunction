@@ -14,7 +14,7 @@ execute if score #pass mk.match.integer matches 3 run tellraw @s [{"text":"[提�
 # execute if score #pass mk.match.integer matches 5 run tellraw @s [{"text":"[提醒]","color":"gold"},{"text":" 5","bold":true,"color":"red"}]
 
 scoreboard players operation #tmp mk.match.integer = #old_pass mk.match.integer
-scoreboard players operation #old_pass mk.match.integer = #pass mk.match.integer
+execute unless score #pass mk.match.integer matches 0 run scoreboard players operation #old_pass mk.match.integer = #pass mk.match.integer
 execute if score #pass mk.match.integer > #tmp mk.match.integer if score #pass mk.match.integer matches 0.. run function mk:others/calc_warn
 
 # execute if score #pass mk.match.integer matches 0.. run function mk:others/calc_warn
